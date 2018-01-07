@@ -185,4 +185,15 @@ groups:
       build: true
       rank: 100
       prefix: '&f[&cAdmin&f] '
+  Owner:
+    permissions:
+    - '*'
+    inheritance:
+    - Moderator
+    - Builder
+    - Admin
+    options:
+      build: true
+      rank: 1
+      prefix: '&f[&4Owner&f] '
 schema-version: 1
