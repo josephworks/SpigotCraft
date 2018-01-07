@@ -180,6 +180,7 @@ groups:
     - '*'
     inheritance:
     - Moderator
+    - Builder
     options:
       build: true
       rank: 100
