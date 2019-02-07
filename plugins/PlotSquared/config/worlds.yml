@@ -23,10 +23,12 @@ worlds:
     home:
       default: side
       allow-nonmembers: false
+      nonmembers: side
     schematic:
       specify_on_claim: false
       on_claim: false
       file: 'null'
+      schematics: []
     economy:
       prices:
         merge: 100
@@ -50,3 +52,4 @@ worlds:
     natural_mob_spawning: false
     mob_spawner_spawning: false
     flags: {}
+    misc_spawn_unowned: false
